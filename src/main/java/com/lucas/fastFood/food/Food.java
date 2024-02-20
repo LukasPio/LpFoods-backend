@@ -2,16 +2,14 @@ package com.lucas.fastFood.food;
 
 import com.lucas.fastFood.DTO.FoodRequestDTO;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Table(name = "foods")
 @Entity(name = "foods")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
+@Setter
 @EqualsAndHashCode(of = "id")
 public class Food {
     @Id
