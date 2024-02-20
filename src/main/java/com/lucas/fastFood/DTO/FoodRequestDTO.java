@@ -1,5 +1,6 @@
 package com.lucas.fastFood.DTO;
 
-public record FoodRequestDTO(String name, String image, Double price) {
+import com.lucas.fastFood.food.Food;
 
+public record FoodRequestDTO(String name, String image, Double price) {
 }
