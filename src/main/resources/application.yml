@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/foods
+    username: postgres
+    password: root
+  jpa:
+    open-in-view: true
